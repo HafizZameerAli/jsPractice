@@ -99,45 +99,8 @@
 //         count = count =1
 //     }
 // }
-// console.log(count)
-
-
-// const nestedArray = [
-//     "level1",
-//     42,
-//     true,
-//     [
-//         "level2",
-//         false,
-//         99,
-//         [
-//             "level3",
-//             123,
-//             true,
-//             [
-//                 "level4",
-//                 "deep",
-//                 false,
-//                 777,
-//                 [
-//                     "level5",
-//                     1001,
-//                     true,
-//                     "end"
-//                 ]
-//             ]
-//         ]
-//     ]
-// ];
-// console.log(
-//     [[[1],[2]]]
-// )
 
 // arrays methods
-
-// var num = [1,2,3,4,5]
-// num.splice(1,2,)
-// console.log(num)
 
 // var cities = ["Hyd","Karachi","Islamabad","Lahore","Multan"]
 // cities.splice(4,1,"hyd")
@@ -175,13 +138,110 @@
 //     if(i % 2===1)
 //     console.log(i);
 // }
-for (var i = 0; i <= 10; i++)
-    var table = i * 2
-console.log(table * i);
+// for (var i = 0; i <= 10; i++)
+//     var table = i * 2
+// console.log(table * i);
 
 
 
 
-var arr = [1, 2, 3, 4, 5];
-for (var i = 0; i <= 5; i++)
-    console.log(arr);
+// var arr = [1, 2, 3, 4, 5];
+// for (var i = 0; i <= 5; i++)
+//     console.log(arr);
+
+
+// for(var i =1; i<=3; i++){
+//     for(var j =1; j<=i; j++){
+//         for(var k =0; k<=3; k++)
+
+    
+//         console.log(i+"*"+j+"="+i*j)
+//      }   
+// }
+
+
+// for(var i =1; i<=3; i++){
+//     var star = ""
+//     for(var j =1; j<=3; j++){
+//          star += "* "
+//     }
+//     console.log(star)
+// }
+
+
+// for(var i =1; i<=4; i++){
+//     var star = ""
+//     for(var j =1; j<=4; j++){
+//          star += j
+//     }
+//     console.log(star)
+// }  
+    
+
+// for(var i =1; i<=4; i++){
+//     var star = ""
+//     for(var j =1; j<=i; j++){
+//          star += "* "
+//     }
+//     console.log(star)
+// }
+    
+// for(var i =1; i<=5; i++){
+//     var star = ""
+//     for(var j =1; j<=5; j++){
+//          star += j
+//     }
+//     console.log(star)    
+
+// }
+
+
+// for(var i =1; i<=4; i++){
+//     var star = ""
+//     for(var j =1; j<=i; j++){
+//          star += j
+//     }
+//     console.log(star)    
+
+// }
+
+// for(var i =4; i>=1; i--){
+//     var star = ""
+//     for(var j =1; j<=i; j++){
+//          star += "* "
+//     }
+//     console.log(star)
+// }
+
+// for(var i =1; i<=4; i++){
+//     var row = ""
+//     for(var j =1; j<=8; j++){
+//         if((i + j ) % 2 === 0) {
+//             row += "#";
+//         } else{
+//             row += ".";
+//         }
+//     }
+//     console.log(row)    
+
+// }
+// var count = 1;
+// for(var i =1; i<=3; i++){
+//     var row = ""
+//     for(var j =1; j<=3; j++){
+//         row += count + " ";
+//         count++
+// }
+//     console.log(row)
+// }
+
+
+// for(var i =5; i>=1; i--){
+//     var row = ""
+//     for(var j =1; j<=3; j++){
+//         row += (i + (j - 1) * 3) + " ";
+// }
+//     console.log(row)
+// }
+
+
