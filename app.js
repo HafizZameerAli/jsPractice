@@ -244,4 +244,47 @@
 //     console.log(row)
 // }
 
+// var twoDarray = [
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+// ]
+//  var totalSum = 0; 
+//  for(var i =0; i< twoDarray.length; i++){
+//     for(var j =0; j<twoDarray[i].length; j++){
+//         totalSum+= twoDarray[i][j]
+//     }
+//  }
+//  console.log(totalSum);
+
+//  var totalN = (10,20,30,40)
+//  var average =0; 
+//  for(var i =0; i< totalN.length; i++){
+//     average += totalN [i]
+//  }
+//  var Average = sum / totalN.length
+//  return Average
+//  console.log(Average);
+
+
+//  If & Else
+
+let age = 25;
+let hasLicense = true;
+let hasCar = false;
+
+if (age < 18) {
+  console.log("You are too young to drive.");
+} else if (age >= 18 && hasLicense && hasCar) {
+  console.log("You can drive your car!");
+} else if (age >= 18 && hasLicense && !hasCar) {
+  console.log("You can drive, but you don’t own a car.");
+} else {
+  console.log("You cannot drive.");
+}
+
+ 
+ 
+ 
+
 
