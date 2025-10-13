@@ -269,19 +269,26 @@
 
 //  If & Else
 
-let age = 25;
-let hasLicense = true;
-let hasCar = false;
+// var age = 25;
+// var hasLicense = true;
+// var hasCar = false;
 
-if (age < 18) {
-  console.log("You are too young to drive.");
-} else if (age >= 18 && hasLicense && hasCar) {
-  console.log("You can drive your car!");
-} else if (age >= 18 && hasLicense && !hasCar) {
-  console.log("You can drive, but you don’t own a car.");
-} else {
-  console.log("You cannot drive.");
-}
+// if (age < 18) {
+//   console.log("You are too young to drive.");
+// } else if (age >= 18 && hasLicense && hasCar) {
+//   console.log("You can drive your car!");
+// } else if (age >= 18 && hasLicense && !hasCar) {
+//   console.log("You can drive, but you don’t own a car.");
+// } else {
+//   console.log("You cannot drive.");
+// }
+
+// calculator
+
+var input = prompt("input your birthdate")
+var eTime = new Date().getTime() - new Date(input).getTime();
+var calculate = Math.floor(eTime / (1000 * 60 * 60 * 24 * 30 * 12 ))
+alert(calculate);
 
  
  
