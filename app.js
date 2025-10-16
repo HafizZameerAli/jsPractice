@@ -285,14 +285,51 @@
 
 // calculator
 
-var input = prompt("input your birthdate")
-var eTime = new Date().getTime() - new Date(input).getTime();
-var calculate = Math.floor(eTime / (1000 * 60 * 60 * 24 * 30 * 12 ))
-alert(calculate);
-var input = prompt("input your birthdate")
-var eTime = new Date().getTime() - new Date(input).getTime();
-var calculate = Math.floor(eTime / (1000 * 60 * 60 * 24 * 30 * 12 ))
-console.log(calculate);
+// var input = prompt("input your birthdate")
+// var eTime = new Date().getTime() - new Date(input).getTime();
+// var calculate = Math.floor(eTime / (1000 * 60 * 60 * 24 * 30 * 12 ))
+// alert(calculate);
+
+// var input = prompt("input your birthdate")
+// var eTime = new Date().getTime() - new Date(input).getTime();
+// var calculate = Math.floor(eTime / (1000 * 60 * 60 * 24 ))
+// console.log(calculate);
+
+
+var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+var now = new Date();
+var theDay = now.getDay();
+var today = days[theDay]
+console.log(today);
+
+var now = new Date();
+var theDate = now.getDate();
+console.log(theDate);
+
+var months = ["jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct"]
+var now = new Date();
+var theMonth = now.getMonth();
+var Month = months[theMonth]
+console.log(Month);
+
+var date = new Date();
+var year = date.getFullYear()
+console.log(year);
+
+var time = new Date();
+var currentH = time.getHours()
+console.log(currentH,':');
+
+var mintues = new Date();
+var currentM = time.getMinutes()
+console.log(currentM);
+
+
+
+
+
+
+
 
 
  
