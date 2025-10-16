@@ -285,10 +285,15 @@
 
 // calculator
 
+// var input = prompt("input your birthdate")
+// var eTime = new Date().getTime() - new Date(input).getTime();
+// var calculate = Math.floor(eTime / (1000 * 60 * 60 * 24 * 30 * 12 ))
+// alert(calculate);
 var input = prompt("input your birthdate")
 var eTime = new Date().getTime() - new Date(input).getTime();
 var calculate = Math.floor(eTime / (1000 * 60 * 60 * 24 * 30 * 12 ))
-alert(calculate);
+console.log(calculate);
+
 
  
  
