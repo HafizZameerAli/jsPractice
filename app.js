@@ -300,29 +300,37 @@ var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 var now = new Date();
 var theDay = now.getDay();
 var today = days[theDay]
-console.log(today);
+// console.log(today);
 
 var now = new Date();
 var theDate = now.getDate();
-console.log(theDate);
+// console.log(theDate);
 
 var months = ["jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct"]
 var now = new Date();
 var theMonth = now.getMonth();
 var Month = months[theMonth]
-console.log(Month);
+// console.log(Month);
 
 var date = new Date();
 var year = date.getFullYear()
-console.log(year);
+// console.log(year);
 
 var time = new Date();
 var currentH = time.getHours()
-console.log(currentH,':');
+// console.log(currentH,':');
 
 var mintues = new Date();
 var currentM = time.getMinutes()
-console.log(currentM);
+// console.log(currentM);
+
+var allTime = today+= theDate+= Month+= year+= currentH+= currentM
+console.log(allTime);
+
+
+
+
+
 
 
 
